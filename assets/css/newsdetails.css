@@ -1,0 +1,142 @@
+#NewsDetailsHero {
+	background-color: var(--light-bg);
+	margin-top: 100px;
+}
+
+.news__hero__content {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 1rem;
+	max-width: 800px;
+
+}
+
+.news__meta {
+	display: flex;
+	gap: 1rem;
+	color: var(--secondary-color);
+	font-size: 0.9rem;
+}
+
+.news__title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--primary-color);
+	line-height: 1.3;
+}
+
+.news__image__container {
+	width: 100%;
+	max-width: 800px;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news__image {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	aspect-ratio: 16/9;
+}
+
+/* News Content Section */
+#NewsContent {
+	background-color: var(--white);
+}
+
+.news__content {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.news__text {
+	font-size: 1.1rem;
+	line-height: 1.8;
+	color: var(--text-color);
+	margin-bottom: 3rem;
+}
+
+/* Share Section */
+.news__share {
+	border-top: 1px solid var(--border-color);
+	padding-top: 2rem;
+	margin-top: 2rem;
+	max-width: 800px;
+	margin-inline: auto;
+
+}
+
+.share__title {
+	color: var(--primary-color);
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.share__buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.share__button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--light-bg);
+	color: var(--primary-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+}
+
+.share__button:hover {
+	background-color: var(--primary-color);
+	color: var(--white);
+	transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+	.news__title {
+		font-size: 2rem;
+	}
+
+	.news__text {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.news__title {
+		font-size: 1.75rem;
+	}
+
+	.news__card__title {
+		font-size: 1.1rem;
+	}
+
+	.news__card__description {
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.news__title {
+		font-size: 1.5rem;
+	}
+
+	.news__meta {
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.news__card__image img {
+		height: 180px;
+	}
+}

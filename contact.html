@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#104979" />
+    <meta name="author" content="Abdelrhman Elnhas" />
+    <meta name="MobileOptimized" content="320" />
+    <meta property="og:title" content="Emaar Contracting" />
+    <meta property="og:type" content="website" />
+    <title>إعمار للمقاولات العامة</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/all.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between">
+      <nav class="navbar navbar-expand-md w-100">
+        <div
+          class="container d-flex align-items-center justify-content-between justify-content-md-start gap-1"
+        >
+          <div class="header__logo">
+            <img class="navbar-brand" src="images/logo.png" alt="Logo" />
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-0 me-md-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#About">
+                  عن الشركة
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="services.html"
+                  >خدمــاتنـــــا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="projects.html"
+                  >مشروعاتنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="news.html"
+                  >آخر الاخبار</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div>
+              <button
+                onclick="window.location.href='inquiry.html'"
+                class="solid-btn header__button"
+              >
+                تواصل معنا
+              </button>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section id="contactBanner" class="position-relative">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row min-vh-75 align-items-center">
+            <div class="col-lg-6 hero-content">
+              <span class="hero-tag">تواصل معنا</span>
+              <h1 class="hero-title mb-4">
+                نحن هنا <br /><span class="highlight">لخدمتك!</span>
+              </h1>
+              <p class="hero-description mb-4">
+                نحن في همم الشرق العقارية على استعداد للإجابة على استفساراتك
+                وتقديم الدعم الذي تحتاجه.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="row">
+              <div class="col-lg-6 contact-info">
+                <h2>فريقنا المختص جاهز لمساعدتك!</h2>
+                <p class="section__description mb-5">
+                  سواء كنت ترغب في الاستفسار عن مشاريعنا، أو ترغب في معرفة
+                  المزيد عن فرص الاستثمار، أو أي استفسار آخر، لا تتردد في
+                  التواصل معنا.
+                </p>
+
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info">
+                      <h3>الموقع</h3>
+                      <p>الخبر - المملكة العربية السعودية</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info">
+                      <h3>رقم الهاتف</h3>
+                      <p>0544026111</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                      <h3>البريد الالكتروني</h3>
+                      <p>eamaarksa2022@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 contact-form">
+                <div class="form-wrapper">
+                  <form>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="الاسم"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="البريد الالكتروني"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        name="message"
+                        rows="6"
+                        placeholder="الرسالة"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                      <button type="submit" class="solid-btn px-5">
+                        إرســال
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="Footer">
+      <div class="container">
+        <div class="text-center text-lg-end text-white pt-5">
+          <div class="text-center text-md-end mt-5">
+            <div class="row mt-3">
+              <div
+                class="col-md-3 col-lg-4 col-xl-3 d-flex flex-column align-items-center align-items-md-start justify-content-center mb-4 mb-md-0"
+              >
+                <img
+                  src="./images/logoP.png"
+                  class="img-fluid footer__logo w-50"
+                  alt="Emaar Logo"
+                />
+              </div>
+              <div class="links col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>روابط مفيدة</h6>
+                <p>
+                  <a href="index.html">الرئيسية</a>
+                </p>
+                <p>
+                  <a href="projects.html">مشاريعنا</a>
+                </p>
+                <p>
+                  <a href="services.html">خدماتنا</a>
+                </p>
+                <p>
+                  <a href="news.html">أخر الأخبار</a>
+                </p>
+                <p>
+                  <a href="contact.html">تواصل معنا</a>
+                </p>
+              </div>
+
+              <div class="links col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>الصفحات القانونية</h6>
+                <p>
+                  <a href="#">سياسة الخصوصية</a>
+                </p>
+                <p>
+                  <a href="#">الشروط و الاحكام</a>
+                </p>
+                <p>
+                  <a href="#">المعلومات القانونية</a>
+                </p>
+              </div>
+
+              <div
+                class="footer__subscription col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+              >
+                <h6>جريدتنا الإلكترونية</h6>
+                <p class="">أحصل على آخر المواضيع والأخبار في بريدك</p>
+                <form action="" class="footer__subscription__form">
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="بريدك الإلكتروني"
+                  />
+                  <button>اشترك</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom text-center p-3">
+        <span>إعمار للمقاولات العامة</span>
+        - جميع الحقوق محفوظة 2025
+      </div>
+    </footer>
+
+    <!-- Bootstrap Script File -->
+    <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    <!-- FontAwesome Script File -->
+    <script src="assets/FontAwesome/js/all.min.js"></script>
+    <!-- Script File -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

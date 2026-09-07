@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#104979" />
+    <meta name="author" content="Abdelrhman Elnhas" />
+    <meta name="MobileOptimized" content="320" />
+    <meta property="og:title" content="Emaar Contracting" />
+    <meta property="og:type" content="website" />
+    <title>إعمار للمقاولات العامة</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/FontAwesome/css/all.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/project-details.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between">
+      <nav class="navbar navbar-expand-md w-100">
+        <div
+          class="container d-flex align-items-center justify-content-between justify-content-md-start gap-1"
+        >
+          <div class="header__logo">
+            <img class="navbar-brand" src="images/logo.png" alt="Logo" />
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-0 me-md-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#About">
+                  عن الشركة
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="services.html"
+                  >خدمــاتنـــــا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="projects.html"
+                  >مشروعاتنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="news.html"
+                  >آخر الاخبار</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div>
+              <button
+                onclick="window.location.href='inquiry.html'"
+                class="solid-btn header__button"
+              >
+                تواصل معنا
+              </button>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Project Details Section -->
+      <section id="ProjectDetailsSpecs" class="mt-5 py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-lg-6">
+              <div
+                class="project__image__container position-relative rounded-4 overflow-hidden mb-4"
+              >
+                <img
+                  src="./images/project1.png"
+                  alt="Project Image"
+                  class="w-100 h-100 object-fit-cover"
+                />
+              </div>
+            </div>
+
+            <!-- Project Description and Specs -->
+            <div class="col-12 col-lg-6">
+              <div class="project__title__container mb-4">
+                <h3 class="mb-2">مشروع</h3>
+                <h2 class="">فلل جوهرة التحلية</h2>
+              </div>
+
+              <div class="project__description mb-4">
+                <p>
+                  يتميز هذا المشروع بمزيج مثالي من الأناقة والراحة، حيث يجمع بين
+                  التصاميم العصرية والتشطيبات الفاخرة. من غرف المعيشة الرحبة ذات
+                  الإضاءة الدافئة والتفاصيل الراقية، إلى الحمامات الفخمة بلمسات
+                  الرخام والديكور العصري، كل زاوية تعكس مستوى غير مسبوق من
+                  الفخامة. يقدم المشروع تجربة سكنية متكاملة تلبي تطلعاتك، مع
+                  مساحات مصممة بعناية، تجمع بين الفخامة والعملية، لتكون بيت
+                  أحلامك بكل معنى الكلمة.
+                </p>
+              </div>
+
+              <div class="project__info__ctas">
+                <a href="#" class="cta-item">
+                  <i class="fas fa-heart"></i>
+                  سجــــــــــــــــــــــل اهتمامـــــــــــــــــــــك
+                  بالمشـــــــــــــــــــــــــروع
+                </a>
+                <a href="" class="cta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  احصل على الاتجاهات
+                </a>
+                <button class="cta-item">
+                  <i class="fas fa-play"></i>
+                  فيديو المشروع
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="ProjectGallery">
+        <div class="container">
+          <h3>معرض الصور</h3>
+          <div class="gallery__grid">
+            <div class="gallery__grid__item">
+              <img src="./images/villa1.jpg" alt="Gallery Image 1" />
+            </div>
+            <div class="gallery__grid__item">
+              <img src="./images/villa1.jpg" alt="Gallery Image 2" />
+            </div>
+            <div class="gallery__grid__item">
+              <img src="./images/villa1.jpg" alt="Gallery Image 3" />
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="outline-btn px-5">
+              <i class="fas fa-images"></i>
+              المزيــــــــــــــــــــــــد
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section
+        id="Services"
+        class="d-flex justify-content-center align-items-start py-5"
+      >
+        <div
+          class="container d-flex flex-column justify-content-center align-items-start"
+        >
+          <div class="services__content">
+            <h2 class="sub-heading services__heading">
+              خدماتنا المقدمة في المشروع
+            </h2>
+          </div>
+
+          <div class="row mt-5">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="services__card">
+                <div class="services__card__img__container">
+                  <img
+                    src="https://cdn.prod.website-files.com/6390e14cc734a931f8327343/65c0836ade98f1b59a5a59de_65b87b114b52a37a27398402_image4%20(1)%20(1)%20(1).webp"
+                    alt="Building"
+                  />
+                </div>
+                <div class="services__card__content">
+                  <h3 class="services__card__title">المكيفات المركزية</h3>
+                  <p class="services__card__subtitle">
+                    تصميم وتنفيذ أنظمة تكييف مركزية ذات كفاءة عالية لتغطية كافة
+                    احتياجات التبريد في المباني الكبيرة.
+                  </p>
+                  <a href="#" class="more-link">المزيد ←</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="services__card">
+                <div class="services__card__img__container">
+                  <img
+                    src="https://cdn.prod.website-files.com/6390e14cc734a931f8327343/65c0836ade98f1b59a5a59de_65b87b114b52a37a27398402_image4%20(1)%20(1)%20(1).webp"
+                    alt="Building"
+                  />
+                </div>
+                <div class="services__card__content">
+                  <h3 class="services__card__title">الاسبليت والشباك</h3>
+                  <p class="services__card__subtitle">
+                    تركيب وصيانة أنظمة التكييف السبليت والشباك لتوفير الراحة
+                    المثلى في المنازل والمكاتب.
+                  </p>
+                  <a href="#" class="more-link">المزيد ←</a>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="services__card">
+                <div class="services__card__img__container">
+                  <img
+                    src="https://cdn.prod.website-files.com/6390e14cc734a931f8327343/65c0836ade98f1b59a5a59de_65b87b114b52a37a27398402_image4%20(1)%20(1)%20(1).webp"
+                    alt="Building"
+                  />
+                </div>
+                <div class="services__card__content">
+                  <h3 class="services__card__title">اعمال التهوية</h3>
+                  <p class="services__card__subtitle">
+                    نقدم حلول تهوية متكاملة لضمان بيئة صحية ومريحة في جميع
+                    المساحات.
+                  </p>
+                  <a href="#" class="more-link">المزيد ←</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Inquiry Section -->
+      <section id="Inquiry">
+        <div class="container">
+          <div class="main-container">
+            <div class="row g-4">
+              <!-- Specifications Section -->
+              <div class="col-md-6">
+                <h3 class="section-title sub-heading">المواصفات</h3>
+                <div class="row g-3">
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-parking"></i>
+                      </div>
+                      <div>
+                        <span>عدد النماذج</span>
+                        <span class="d-block">3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-warehouse"></i>
+                      </div>
+                      <div>
+                        <span>عدد الوحدات</span>
+                        <span class="d-block">120</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-elevator"></i>
+                      </div>
+                      <div>
+                        <span>مساحة البناء</span>
+                        <span class="d-block">200م</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-layer-group"></i>
+                      </div>
+                      <div>
+                        <span>الأرضيات</span>
+                        <span class="d-block">بورسلين</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-toilet"></i>
+                      </div>
+                      <div>
+                        <span>مراحيض</span>
+                        <span class="d-block">2</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-window-maximize"></i>
+                      </div>
+                      <div>
+                        <span>النوافذ</span>
+                        <span class="d-block">UPVC</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-snowflake"></i>
+                      </div>
+                      <div>
+                        <span>نظام تبريد</span>
+                        <span class="d-block">3</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="spec-item">
+                      <div class="spec-icon">
+                        <i class="fas fa-fire"></i>
+                      </div>
+                      <div>
+                        <span>نظام تدفئة</span>
+                        <span class="d-block">1</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 class="section-title sub-heading my-4">الموقع</h3>
+                <div class="map-container">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229114.54949266848!2d50.00024161715559!3d26.199448532267468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e839e8ef58d9%3A0xef778812d8b6aad1!2sAl%20Khobar%20Saudi%20Arabia!5e0!3m2!1sen!2seg!4v1743084448085!5m2!1sen!2seg"
+                    width="100%"
+                    height="100%"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+
+              <!-- Contact Form Section -->
+              <div class="col-md-6">
+                <div class="form-container">
+                  <h4 class="text-end mb-3">هل أنت مهتم بهذا المشروع ؟</h4>
+                  <p class="text-end text-muted mb-4">
+                    اترك لنا رسالة استفسارات و سنتواصل معك في أسرع وقت.
+                  </p>
+
+                  <form>
+                    <div class="mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="الاسم"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="بريد إلكتروني"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="tel"
+                        dir="rtl"
+                        class="form-control"
+                        placeholder="رقم الهاتف"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <textarea
+                        class="form-control"
+                        placeholder="الاستفسار"
+                      ></textarea>
+                    </div>
+
+                    <div class="d-flex flex-column gap-3">
+                      <div
+                        class="form-check text-end d-flex align-items-center gap-2"
+                      >
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="terms"
+                        />
+                        <label
+                          class="form-check-label text-muted small pe-4"
+                          for="terms"
+                        >
+                          أوافق على تلقي عروض ترويجية من المعلومات التسويقية
+                          لدينا
+                        </label>
+                      </div>
+
+                      <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        إرســــال
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="Footer">
+      <div class="container">
+        <div class="text-center text-lg-end text-white pt-5">
+          <div class="text-center text-md-end mt-5">
+            <div class="row mt-3">
+              <div
+                class="col-md-3 col-lg-4 col-xl-3 d-flex flex-column align-items-center align-items-md-start justify-content-center mb-4 mb-md-0"
+              >
+                <img
+                  src="./images/logoP.png"
+                  class="img-fluid footer__logo w-50"
+                  alt="Emaar Logo"
+                />
+              </div>
+              <div class="links col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>روابط مفيدة</h6>
+                <p>
+                  <a href="index.html">الرئيسية</a>
+                </p>
+                <p>
+                  <a href="projects.html">مشاريعنا</a>
+                </p>
+                <p>
+                  <a href="services.html">خدماتنا</a>
+                </p>
+                <p>
+                  <a href="news.html">أخر الأخبار</a>
+                </p>
+                <p>
+                  <a href="contact.html">تواصل معنا</a>
+                </p>
+              </div>
+
+              <div class="links col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6>الصفحات القانونية</h6>
+                <p>
+                  <a href="#">سياسة الخصوصية</a>
+                </p>
+                <p>
+                  <a href="#">الشروط و الاحكام</a>
+                </p>
+                <p>
+                  <a href="#">المعلومات القانونية</a>
+                </p>
+              </div>
+
+              <div
+                class="footer__subscription col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"
+              >
+                <h6>جريدتنا الإلكترونية</h6>
+                <p class="">أحصل على آخر المواضيع والأخبار في بريدك</p>
+                <form action="" class="footer__subscription__form">
+                  <input
+                    type="email"
+                    name=""
+                    id=""
+                    placeholder="بريدك الإلكتروني"
+                  />
+                  <button>اشترك</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerBottom text-center p-3">
+        <span>إعمار للمقاولات العامة</span>
+        - جميع الحقوق محفوظة 2025
+      </div>
+    </footer>
+
+    <!-- Bootstrap Script File -->
+    <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+    <!-- FontAwesome Script File -->
+    <script src="assets/FontAwesome/js/all.min.js"></script>
+    <!-- Script File -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
